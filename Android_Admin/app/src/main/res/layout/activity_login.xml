@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="#f3eef3"
+    android:orientation="vertical">
+
+    <TextView
+        android:paddingTop="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="HELLO AGAIN!"
+        android:textColor="#029394"
+        android:textSize="34sp">
+    </TextView>
+    <TextView
+        android:fontFamily="@font/poppins_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Welcome back you've\nbeen missed!"
+        android:textColor="#454054"
+        android:textSize="20sp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:drawablePadding="16dp"
+        android:hint="Username"
+        android:text="admin123"
+        android:textColorHint="#cbcad1"
+        android:backgroundTint="#fff"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/rounded_border"
+        android:drawableStart="@drawable/user"
+        android:textSize="16sp">
+    </EditText>
+    <EditText
+        android:id="@+id/etPassword"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:drawablePadding="16dp"
+        android:layout_gravity="center"
+        android:hint="Password"
+        android:text="123456"
+        android:inputType="textPassword"
+        android:textColorHint="#cbcad1"
+        android:drawableEnd="@drawable/hide"
+        android:backgroundTint="#fff"
+        android:background="@drawable/rounded_border"
+        android:drawableStart="@drawable/password"
+        android:textSize="16sp">
+    </EditText>
+    <TextView
+        android:fontFamily="@font/poppins_semibold"
+        android:id="@+id/ext_recovery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="35dp"
+        android:text="Recovery Password"
+        android:paddingLeft="32dp"
+        android:textColor="#454054"
+        android:textSize="15sp">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:fontFamily="@font/poppins_semibold"
+        android:backgroundTint="#fd6b68"
+        style="@android:style/Widget.Button"
+        android:layout_width="340dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:letterSpacing="0.1"
+        android:textColor="#fff"
+        android:background="@drawable/btn_background"
+        android:text="SIGN IN">
+    </Button>
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/administrator"
+        android:layout_width="140dp"
+        android:layout_height="140dp">
+
+    </ImageView>
+
+
+
+
+</LinearLayout>

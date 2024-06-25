@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f3eef3">
+
+    <ImageView
+        android:layout_width="390dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/bank4"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingBottom="15dp">
+
+        <ImageView
+
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:fontFamily="@font/poppins_semibold"
+            android:paddingLeft="12dp"
+            android:textSize="16sp"
+            android:textColor="#233266"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="15dp">
+
+                    <ImageView
+
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/call">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/txtPhone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0905111111"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:paddingLeft="12dp"
+                        android:textSize="16sp"
+                        android:textColor="#233266"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:paddingLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="15dp">
+
+                    <ImageView
+
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/message">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/txtEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:paddingLeft="12dp"
+                        android:text="example@gmail.com"
+                        android:textColor="#233266"
+                        android:textSize="16sp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+
+    <TextView
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingBottom="8dp"
+        android:text="Please enter your address to checkout !!"
+        android:textSize="16sp"
+        android:textColor="#233266"
+        android:textStyle="bold"></TextView>
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:paddingBottom="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/location">
+        </ImageView>
+        <EditText
+            android:id="@+id/editAddress"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="40dp"
+            android:textColorHint="#cbcad1"
+            android:backgroundTint="#fff"
+            android:background="@drawable/rounded_border"
+            android:textSize="14sp"/>
+    </LinearLayout>
+<!--    <TextView-->
+<!--        android:fontFamily="@font/poppins_semibold"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:paddingBottom="8dp"-->
+<!--        android:text="Recipient's name: "-->
+<!--        android:textSize="16sp"-->
+<!--        android:textColor="#233266"-->
+<!--        android:textStyle="bold"></TextView>-->
+<!--    <LinearLayout-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <ImageView-->
+
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/user">-->
+
+<!--        </ImageView>-->
+<!--        <EditText-->
+<!--            android:id="@+id/editAdress"-->
+<!--            android:fontFamily="@font/poppins_regular"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_marginLeft="12dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:textColorHint="#cbcad1"-->
+<!--            android:backgroundTint="#fff"-->
+<!--            android:background="@drawable/rounded_border"-->
+<!--            android:textSize="14sp"/>-->
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingBottom="8dp"
+            android:text="Total Price:  "
+            android:textSize="16sp"
+            android:textColor="#233266"></TextView>
+
+        <TextView
+            android:id="@+id/txtTotalPrice"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingBottom="8dp"
+            android:text="123456$"
+            android:textSize="20sp"
+            android:textColor="#fd6b68"></TextView>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnOrder"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_background"
+        android:backgroundTint="#fd6b68"
+        android:fontFamily="@font/poppins_semibold"
+        android:letterSpacing="0.1"
+        android:text="Cash on delivery"
+        android:textColor="#fff"
+        android:textSize="16sp"></Button>
+    <com.paypal.android.paymentbuttons.PayPalButton
+        android:layout_width="match_parent"
+        android:id="@+id/payPalButton"
+        android:layout_height="15dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"
+        app:payment_button_shape="rounded"
+        ></com.paypal.android.paymentbuttons.PayPalButton>
+
+    <com.paypal.checkout.paymentbutton.PaymentButtonContainer
+        android:id="@+id/payment_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerInParent="true"
+        app:paypal_button_color="blue"
+        app:paypal_button_enabled="true"
+        app:paypal_button_label="pay"
+        app:paypal_button_shape="rounded"
+        app:paypal_button_size="large" />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".PaymentActivity">-->
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/card"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="5dp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:elevation="8dp"-->
+<!--        app:cardCornerRadius="4dp"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_goneMarginLeft="5dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="5dp">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="5dp"-->
+<!--                    android:text="Total Price: "-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:textStyle="bold"></TextView>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/txtTotalPrice"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="1200$"-->
+<!--                    android:textColor="@color/text_Color_Red"-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:textStyle="bold"></TextView>-->
+<!--            </LinearLayout>-->
+
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:layout_marginTop="5dp"></View>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="5dp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="5dp"-->
+<!--                    android:layout_marginRight="10dp"-->
+<!--                    android:src="@drawable/ic_baseline_phone_24"></ImageView>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/txtPhone"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="0905111111"-->
+<!--                    android:textColor="@color/text_Color_Red"-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:textStyle="bold"></TextView>-->
+<!--            </LinearLayout>-->
+
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:layout_marginTop="5dp"></View>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="5dp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="5dp"-->
+<!--                    android:layout_marginRight="10dp"-->
+<!--                    android:src="@drawable/ic_baseline_email_24"></ImageView>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/txtEmail"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="example@gmail.com"-->
+<!--                    android:textColor="@color/text_Color_Red"-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:textStyle="bold"></TextView>-->
+<!--            </LinearLayout>-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/editAddress"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:ems="10"-->
+<!--                android:hint="Enter your address:"-->
+<!--                android:inputType="textPersonName" />-->
+<!--        </LinearLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/btnOrder"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:background="@drawable/blue_button"-->
+<!--        android:text="Order"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent">-->
+
+<!--    </androidx.appcompat.widget.AppCompatButton>-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

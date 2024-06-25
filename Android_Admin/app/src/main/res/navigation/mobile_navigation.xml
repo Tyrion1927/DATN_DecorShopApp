@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_product">
+
+    <fragment
+        android:id="@+id/nav_add_product"
+        android:name="com.example.adminfunitureshopapp.ui.product.AddProductFragment"
+        tools:layout="@layout/fragment_add_product" ></fragment>
+
+    <fragment
+        android:id="@+id/nav_update_product"
+        android:name="com.example.adminfunitureshopapp.ui.product.UpdateProductFragment"
+        tools:layout="@layout/fragment_update_product" ></fragment>
+
+    <fragment
+        android:id="@+id/nav_product"
+        android:name="com.example.adminfunitureshopapp.ui.product.ProductFragment"
+        tools:layout="@layout/fragment_product" ></fragment>
+
+    <fragment
+        android:id="@+id/nav_category"
+        android:name="com.example.adminfunitureshopapp.ui.category.CategoryFragment"
+        tools:layout="@layout/fragment_category" />
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.example.adminfunitureshopapp.ui.account.AccountFragment"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/nav_order"
+        android:name="com.example.adminfunitureshopapp.ui.order.OrderFragment"
+        tools:layout="@layout/fragment_order" />
+
+    <fragment
+        android:id="@+id/nav_revenue"
+        android:name="com.example.adminfunitureshopapp.ui.revenue.RevenueFragment"
+        tools:layout="@layout/fragment_revenue" />
+    <fragment
+        android:id="@+id/nav_order_detail"
+        android:name="com.example.adminfunitureshopapp.ui.order.OrderDetailFragment"
+        tools:layout="@layout/fragment_order_detail" />
+</navigation>

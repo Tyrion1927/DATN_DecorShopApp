@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "278745966275",
+    "firebase_url": "https://androidfurnitureshop-default-rtdb.firebaseio.com",
+    "project_id": "androidfurnitureshop",
+    "storage_bucket": "androidfurnitureshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278745966275:android:d8b2418e6141bdf4b7e476",
+        "android_client_info": {
+          "package_name": "com.AndroidFunitureShopApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278745966275-brhq7gan4s00ao0al43p363s053ep39i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9ORm35r5YWShcnCbruNinefSOWKRaXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278745966275-brhq7gan4s00ao0al43p363s053ep39i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#f3eef3"
+    android:layout_height="match_parent"
+    tools:context=".ui.product.AddProductFragment">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:paddingTop="30dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="EDIT YOUR CATEGORY"
+            android:textColor="#029394"
+            android:textSize="34sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="Name: " />
+
+        <EditText
+            android:id="@+id/et_name_category"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="#fff"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="Name category"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="#cbcad1"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="Image URL: " />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="textMultiLine"
+            android:minLines="1"
+            android:maxLines="10"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="#fff"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="Image url"
+            android:gravity="top|left"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="#cbcad1"
+            android:textSize="16sp"
+            android:id="@+id/et_image_category"/>
+
+
+        <Button
+            android:id="@+id/btn_submit_category"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Submit"
+            android:backgroundTint="#fd6b68"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/apps"
+            >
+        </ImageView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

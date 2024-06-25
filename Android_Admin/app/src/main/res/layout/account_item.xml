@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:elevation="6dp"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="10dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/liner_acc_item"
+        >
+
+        <ImageView
+            android:id="@+id/img_account"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_baseline_admin_24"></ImageView>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content">
+
+<!--            <TextView-->
+<!--                android:padding="6dp"-->
+<!--                android:id="@+id/tv_Acccount_ID"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Id"-->
+<!--                android:textColor="#376553"-->
+<!--                android:textSize="17sp"></TextView>-->
+
+            <TextView
+                android:padding="6dp"
+                android:id="@+id/tv_Acccount_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NAME"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColor="#376553"
+                android:textSize="17sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/tv_Acccount_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Role"
+                android:padding="8dp"
+                android:textColor="#fe6464"
+                android:textSize="12sp">
+            </TextView>
+            <TextView
+                android:id="@+id/tv_Acccount_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="17dp"
+                android:paddingLeft="8dp"
+                ></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_resetpass_acc"
+                android:layout_width="100dp"
+                android:layout_height="43dp"
+                android:text="RESET"
+                android:fontFamily="@font/poppins_semibold"
+                android:layout_marginRight="15dp"
+                android:textColor="#fff"
+                android:paddingEnd="4dp"
+                android:drawableEnd="@drawable/ic_baseline_lock_reset_24"
+                android:backgroundTint="#1e5bf8"
+                android:textSize="12sp">
+            </Button>
+
+            <Button
+                android:id="@+id/btn_delete_acc"
+                android:layout_width="100dp"
+                android:layout_height="43dp"
+                android:text="DELETE"
+                android:fontFamily="@font/poppins_semibold"
+                android:drawableEnd="@drawable/ic_baseline_delete_24"
+                android:backgroundTint="#fe6464"
+                android:paddingEnd="4dp"
+                android:textColor="#fff"
+                android:textSize="12sp">
+            </Button>
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_gravity="center_vertical"-->
+
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btn_resetpass"-->
+<!--                android:backgroundTint="#376553"-->
+<!--                android:layout_width="85dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:text="Reset"-->
+<!--                android:textColor="#fff"-->
+<!--                android:textSize="10sp">-->
+<!--            </Button>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btn_delete"-->
+<!--                android:backgroundTint="#376553"-->
+<!--                android:layout_width="75dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:textColor="#fff"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:text="DELETE"-->
+<!--                android:textSize="10sp">-->
+<!--            </Button>-->
+<!--        </LinearLayout>-->
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

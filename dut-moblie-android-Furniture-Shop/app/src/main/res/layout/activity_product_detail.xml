@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#f3eef3"
+    tools:context=".ProductDetail">
+    <ImageView
+        android:id="@+id/img_product_detail"
+        android:layout_width="380dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/facebook_button"
+        ></ImageView>
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_product_detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="SONGESAND"
+            android:gravity="center_horizontal"
+            android:textSize="22sp"
+            android:textColor="#376553"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:paddingLeft="50dp"
+            app:srcCompat="@drawable/love"></ImageView>
+    </LinearLayout>
+    <TextView
+        android:lineHeight="25dp"
+        android:id="@+id/tv_productDetail"
+        android:textSize="16dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="15dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:lineHeight="25dp"
+            android:text="Price: "
+            android:textSize="20sp"
+            android:textStyle="bold|italic"></TextView>
+        <TextView
+            android:id="@+id/tv_product_detail_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$999"
+            android:textColor="#376553"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="25sp"
+            android:paddingRight="30dp"
+            android:lineHeight="30dp"
+            android:textStyle="bold|italic"></TextView>
+
+        <Button
+            android:id="@+id/btn_add_to_car_produdct_detail"
+            style="@android:style/Widget.Button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_background"
+            android:backgroundTint="#fd6b68"
+            android:drawableStart="@drawable/ic_baseline_shopping_cart_24"
+            android:fontFamily="@font/poppins_semibold"
+            android:paddingStart="8dp"
+            android:text="Add to cart"
+            android:textColor="#fff"
+            android:textSize="14sp"></Button>
+
+    </LinearLayout>
+</LinearLayout>

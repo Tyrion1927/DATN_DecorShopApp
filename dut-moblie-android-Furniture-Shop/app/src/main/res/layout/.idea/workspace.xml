@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2dbc1955-6af5-45c6-8294-7f851a99425b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/Server/connect.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/Server/getCategories.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/Server/getProducts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/model/Categories/Categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/model/Categories/Categories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/model/Categories/CategoriesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/model/Categories/CategoriesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/model/Product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/model/Product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/model/Product/productsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/model/Product/productsAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/view/CategoriesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/view/CategoriesFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/viewmodel/CategoriesAPIService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/viewmodel/CategoriesAPIService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/viewmodel/ViewPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/viewmodel/ViewPagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/viewmodel/productsAPIService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/AndroidFunitureShopApp/viewmodel/productsAPIService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/category_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../local.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NXfj3uAiBEfY0LngUEwptcQjxG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2dbc1955-6af5-45c6-8294-7f851a99425b" name="Changes" comment="" />
+      <created>1679815479086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679815479086</updated>
+    </task>
+    <servers />
+  </component>
+</project>
