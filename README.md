@@ -62,7 +62,6 @@
   <img src="image/user/7.png" alt="Screenshot 7" width="150" height="320">
   <img src="image/user/8.png" alt="Screenshot 8" width="150" height="320">
   <img src="image/user/9.png" alt="Screenshot 9" width="150" height="320">
-  <img src="image/user/10.png" alt="Screenshot 10" width="150" height="320">
   <img src="image/user/11.png" alt="Screenshot 11" width="150" height="320">
   <img src="image/user/14.png" alt="Screenshot 14" width="150" height="320">
 </p>
